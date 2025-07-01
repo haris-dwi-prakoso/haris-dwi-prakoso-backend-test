@@ -1,0 +1,23 @@
+{
+  "name": "haris-dwi-prakoso-backend-test",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/haris-dwi-prakoso/haris-dwi-prakoso-backend-test#readme",
+  "bugs": {
+    "url": "https://github.com/haris-dwi-prakoso/haris-dwi-prakoso-backend-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haris-dwi-prakoso/haris-dwi-prakoso-backend-test.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "self-numbers.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^30.0.3"
+  }
+}

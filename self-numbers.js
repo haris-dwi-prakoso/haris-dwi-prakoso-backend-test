@@ -1,4 +1,5 @@
 function hasGenerator(n) {
+    if (n == 1) return false;
     for (let i = 1; i < n; i++) {
         let numString = String(i);
         let genNum = 0;
@@ -20,7 +21,7 @@ function totalSelfNums(n) {
     for (let i = 1; i < n; i++) {
         if (!hasGenerator(i)) selfNums.push(i);
     }
-    console.log(selfNums);
+    // console.log(selfNums);
     let total = 0;
     for (let i = 0; i < selfNums.length; i++) {
         total += selfNums[i];
@@ -29,3 +30,5 @@ function totalSelfNums(n) {
 }
 
 console.log(totalSelfNums(5000));
+
+module.exports = { hasGenerator, totalSelfNums };
